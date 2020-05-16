@@ -47,6 +47,7 @@ public class GUIEstadisticasPorSexo extends javax.swing.JFrame implements Observ
         jLabel2.setText("Mujeres");
 
         txtHombres.setEditable(false);
+        txtHombres.setBackground(new java.awt.Color(255, 255, 255));
         txtHombres.setText("0");
         txtHombres.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         txtHombres.addActionListener(new java.awt.event.ActionListener() {
